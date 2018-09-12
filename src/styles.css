@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+header{
+    border:solid 1px #ccc; 
+ }
+
+ header ul li {
+    display: inline-block;
+    margin: 0 25px;
+    padding: 10px;
+}
+
+header ul {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: auto;
+}
+
+.wrapper {
+    border: solid #cccccc69 2px;
+    padding: 30px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+header ul li a {text-decoration: none;}
+
+.red {
+    background: #ff6666;
+}
+
+.green {
+    background: #a8da82;
+}
+
+.orange {
+    background: #f7bb13;
+}
+
+.pink {
+    background: pink;
+}
+
+
+
+ul.colors li{
+    
+    list-style: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+ul.colors {
+    padding-left: 0;
+    margin: 0;
+}
+
+.blue {
+    background: #6c9fec;
+}
+
+.color-box {
+    width: 100%;
+    height: 140px;
+    background: #a8da82;
+    margin-top: 15px;
+    display: flex;
+}
+
+.color-box h1 {
+    margin: auto;
+    font-weight: 400;
+}
+
+.text-center {text-align: center;}
